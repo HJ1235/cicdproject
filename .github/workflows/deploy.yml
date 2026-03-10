@@ -7,10 +7,10 @@ on:
 
 env:
   PROJECT_NAME: cicdproject
-  BUCKET_NAME: cide-codedeploy-4878
-  CODE_DEPLOY_APP_NAME: cicdapp
-  DEPLOYMENT_GROUP_NAME: cicdapp_deploy
-  AWS_REGION: us-west-2
+  BUCKET_NAME: cicd-codedeploy-zurang
+  CODE_DEPLOY_APP_NAME: zurang-app
+  DEPLOYMENT_GROUP_NAME: zurang-deploy
+  AWS_REGION: ap-northeast-2
 
 jobs:
   build:
